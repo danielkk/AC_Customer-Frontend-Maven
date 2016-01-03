@@ -45,12 +45,12 @@ public class DummyRepositoryTest {
          assertTrue(before>after);
      }
      
-//     @Test (expected=Exception.class)
-//     public void testCancelReservationDidNotExist() throws Exception {
-//         System.out.println("testCreateReservationDidNotExist");
-//         repo.cancelReservation(-10);
-//     }
-//     
+     @Test (expected=Exception.class)
+     public void testCancelReservationDidNotExist() throws Exception {
+         System.out.println("testCreateReservationDidNotExist");
+         repo.cancelReservation(-10);
+     }
+     
      @Test
      public void testGetReservation() throws Exception {
          System.out.println("testGetReservation");
