@@ -5,6 +5,10 @@
     <artifactId>AC_Customer-Frontend</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://localhost:8080/job/AC_Customer-Frontend/</url>
+    </ciManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
