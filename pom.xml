@@ -39,9 +39,6 @@
                     <skip>${maven.test.skip}</skip>
                     <output>file</output>
                     <append>true</append>
-                    <excludes>
-                        <exclude>**/UI/SimpleGUI.java</exclude>
-                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
